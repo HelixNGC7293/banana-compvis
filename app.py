@@ -5,7 +5,7 @@ from ldm.models.diffusion.ddim import DDIMSampler
 from ldm.models.diffusion.plms import PLMSSampler
 import time
 from tqdm import tqdm, trange
-from txt2img import chunk, numpy_to_pil, put_watermark, load_replacement, check_safety
+# from txt2img import chunk, numpy_to_pil, put_watermark, load_replacement, check_safety
 from imwatermark import WatermarkEncoder
 from PIL import Image
 from einops import rearrange
